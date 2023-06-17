@@ -1,0 +1,22 @@
+body {
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:  50px;
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+}
+/* 
+li {
+    align-content: ;
+} */
+
+input {
+    float:right;
+    clear:both;
+}
+
+#survey {
+    background-color: antiquewhite;
+}

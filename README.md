@@ -16,7 +16,7 @@
 
 ## Description
 
-This page intended to ___.
+This page intended to suggest programming languages to new programmers.
 
 ## Setup Requirements
 
@@ -24,8 +24,8 @@ This page intended to ___.
 * install vs code
 * install live server for vs code
 * open the repo in vs code
-* open index.htm in browser using live server
-* view the page via github pages here:  https://aaronvbrown.github.io/port/
+* open index.html in browser using live server
+* view the page via github pages here:  https://aaronvbrown.github.io/language-suggester/
 
 
 ## Known Bugs

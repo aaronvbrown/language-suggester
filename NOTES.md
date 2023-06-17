@@ -9,6 +9,8 @@
 - use event listeners (or handlers)
 - no window methods!
 - show and hide html elements, or update existing html elements to communicate results.
+- clean up comments afterward
+- include README
 
 # Objectives
 - form gathers input from user
