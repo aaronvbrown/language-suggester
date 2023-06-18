@@ -14,17 +14,18 @@
 
         <form>
             <ul>
+                <h2> <em>Please answer a few questions about you.</em></h2>
                 <li>
-                    <label for "question1Input">Have you used nested "if" statements in Excel?</label>
-                    <input id "question1Input" type="bool" name="question1Input">
+                    <label for "question1Input">Have you used nested "if" statements Excel?</label>
+                    <input id "question1Input" type="text" name="question1Input">
                 </li>
                 <li>
                     <label for"question2Input">Do you enjoy micro-managing your code?</label>
-                    <input id"question2Input" type="bool" name="question2Input">
+                    <input id"question2Input" type="text" name="question2Input">
                 </li>
                 <li>
                     <label for"question3Input">Do you prefer coffee or tea?</label>
-                    <input id"question3Input" type = "text" name="question3Input">
+                    <input id"question3Input" type="text" name="question3Input">
                 </li>
                 <li>
                     <label for"question4Input">Do it fast or do it well?</label>
@@ -34,11 +35,18 @@
                     <label for"question5Input">Does cilantro taste good to you?</label>
                     <input id"question5Input" type="text" name="question5Input">
                 </li>
+                <button type="submit">Recommend a language for me!</button>
             </ul>
-            <button type="submit">Recommend a language for me!</button>
-        
+
     </div>
     </form>
+    <div id="suggestion">
+        <p id="python" class="hidden">Try Python.</p>
+        <p id="javascript" class="hidden">Try Javascript.</p>
+        <p id="c++" class="hidden">Try C++.</p>
+    </div>
+
+    </div>
 
 </body>
 

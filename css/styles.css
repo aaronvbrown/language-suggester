@@ -17,6 +17,10 @@ input {
     clear:both;
 }
 
+/* .hidden {
+    display:  none;
+} */
+
 #survey {
     background-color: antiquewhite;
 }
