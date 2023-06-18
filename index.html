@@ -9,9 +9,7 @@
 
 <body>
     <h1>Which language should you use as a new programmer?</h1>
-
     <div id="survey">
-
         <form>
             <h2> <em>Please answer a few questions about you.</em></h2>
             <p>
@@ -23,28 +21,26 @@
                 <input id"question2Input" type="text" name="question2Input">
             </p>
             <p>
-                <label for"question3Input">Do you prefer coffee or tea?</label>
-                <input id"question3Input" type="text" name="question3Input">
+                <label for"question3Input">Do it fast or do it well?</label>
+                <input id"question3Input" type="text" name="question4Input">
             </p>
             <p>
-                <label for"question4Input">Do it fast or do it well?</label>
-                <input id"question4Input" type="text" name="question4Input">
+                <label for"question4Input">Do you like writing reports at work?</label>
+                <input id"question4Input" type="text" name="question3Input">
             </p>
             <p>
                 <label for"question5Input">Does cilantro taste good to you?</label>
                 <input id"question5Input" type="text" name="question5Input">
             </p>
             <button type="submit">Recommend a language for me!</button>
+        </form>
     </div>
-    </form>
-    <div id="suggestion">
+    <div id="suggestion" class="hidden">
+        <h2>Here is a suggestion based on your survey answers.</h2></p>
         <p id="python" class="hidden">Try Python.</p>
         <p id="javascript" class="hidden">Try Javascript.</p>
         <p id="c++" class="hidden">Try C++.</p>
+        <button type="button" id="reset">Reset</button>
     </div>
-
-    </div>
-
 </body>
-
 </html>

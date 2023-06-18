@@ -2,13 +2,32 @@
 
 // User Interface Logic
 
-window.onload = function() {
+window.addEventListener("load", function() {
     let form = document.querySelector("form");
-    form.onsubmit = function(event) {
-        const question1Answer = document.getElementById("question1Input");
-        const question2Answer = document.getElementById("question2Input");
-        const question3Answer = document.getElementById("question3Input");
-        const question4Answer = document.getElementById("question4Input");
-        const question5Answer = document.getElementById("question5Input");
-    }
-}
+    let resetBtn = document.getElementById("reset");
+    let suggestion = document.getElementById("suggestion");
+  
+    form.addEventListener("submit", function(event) {
+      const question1Input = document.getElementById("question1Input").value;
+      const question2Input = document.getElementById("question2Input").value;
+      const question3Input = document.getElementById("question3Input").value;
+      const question4Input = document.getElementById("question4Input").value;
+      const question5Input = document.getElementById("question5Input").value;
+      event.preventDefault();
+    });
+  
+    form.addEventListener("submit", function() {
+      suggestion.removeAttribute("class");
+      event.preventDefault();
+    }); 
+    
+  
+    resetBtn.addEventListener("click", function() {
+      suggestion.setAttribute("class", "hidden");
+      document.getElementById("question1Input").value = null;
+      document.getElementById("question2Input").value = null;
+      document.getElementById("question3Input").value = null;
+      document.getElementById("question4Input").value = null;
+      document.getElementById("question5Input").value = null;
+    });
+  });
