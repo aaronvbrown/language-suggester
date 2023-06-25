@@ -13,9 +13,9 @@ window.addEventListener("load", function() {
       const question3Input = document.getElementById("question3Input").value;
       const question4Input = document.getElementById("question4Input").value;
       const question5Input = document.getElementById("question5Input").value;
-      if (document.getElementById("question1Input").value = "yes") {
+      if (document.getElementById("question1Input").value === "yes") {
         document.getElementById("python").removeAttribute("class");
-      } else if (document.getElementById("question2Input").value = "yes") {
+      } else if (document.getElementById("question2Input").value === "yes") {
         document.getElementById("c++").removeAttribute("class");
       } else {
         document.getElementById("javascript").removeAttribute("class");

@@ -2,7 +2,7 @@
  # Requirements
   
 - insert form with at least five survey questions
-- offer at least five different language suggestions
+- offer at least three different language suggestions
 - each branch should return one results
 - If the user submmits a second time, previous answers should be cleared out entirely.
 - barnching can be simple
