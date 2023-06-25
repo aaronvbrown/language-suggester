@@ -15,10 +15,16 @@ window.addEventListener("load", function() {
       const question5Input = document.getElementById("question5Input").value;
       if (document.getElementById("question1Input").value === "yes") {
         document.getElementById("python").removeAttribute("class");
+        document.getElementById("javascript").setAttribute("class", "hidden");
+        document.getElementById("c++").setAttribute("class", "hidden");
       } else if (document.getElementById("question2Input").value === "yes") {
         document.getElementById("c++").removeAttribute("class");
+        document.getElementById("python").setAttribute("class", "hidden");
+        document.getElementById("javascript").setAttribute("class", "hidden");
       } else {
         document.getElementById("javascript").removeAttribute("class");
+        document.getElementById("python").setAttribute("class", "hidden");
+        document.getElementById("c++").setAttribute("class", "hidden");
       }
       event.preventDefault();
     });
