@@ -13,11 +13,11 @@ window.addEventListener("load", function() {
       const question3Input = document.getElementById("question3Input").value;
       const question4Input = document.getElementById("question4Input").value;
       const question5Input = document.getElementById("question5Input").value;
-      if (document.getElementById("question1Input").value === "yes") {
+      if (question1Input === "yes") {
         document.getElementById("python").removeAttribute("class");
         document.getElementById("javascript").setAttribute("class", "hidden");
         document.getElementById("c++").setAttribute("class", "hidden");
-      } else if (document.getElementById("question2Input").value === "yes") {
+      } else if (question2Input === "yes") {
         document.getElementById("c++").removeAttribute("class");
         document.getElementById("python").setAttribute("class", "hidden");
         document.getElementById("javascript").setAttribute("class", "hidden");

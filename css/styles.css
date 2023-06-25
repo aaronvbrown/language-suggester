@@ -8,6 +8,10 @@ div {
     padding: 10px;
 }
 
+form {
+    padding-inline: 10px;
+}
+
 input {
     float:right;
     clear:both;
